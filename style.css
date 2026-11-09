@@ -1,0 +1,45 @@
+.hoverable{
+    background-color: green;
+}
+
+li:nth-child(2){
+    color: purple;
+}
+
+h2 {
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article p {
+    border: 2px solid red;
+}
+
+ul li {
+    background-color: lightyellow;
+}
+
+.box.green {
+    background-color: lightgreen;
+}
+
+li:first-child {
+    font-style: italic;
+}
+
+li:last-child {
+    font-weight: 600;
+}
+a{
+    background-color: aquamarine;
+    padding: 10px 15px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+    transition: all 0.3s;
+    background-color: white;
+    border: 1px solid red;
+}
